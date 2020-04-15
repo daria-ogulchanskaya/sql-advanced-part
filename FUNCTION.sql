@@ -1,4 +1,4 @@
-CREATE FUNCTION SupplyCanBeCompleted (@FlowerId int, @PlantationId int, @Amount int)
+CREATE FUNCTION SupplyCanBeCompleted (@FlowerId INT, @PlantationId INT, @Amount INT)
 RETURNS BIT
 AS
 BEGIN
