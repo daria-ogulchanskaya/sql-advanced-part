@@ -2,8 +2,8 @@ CREATE FUNCTION SupplyCanBeCompleted (@FlowerId int, @PlantationId int, @Amount 
 RETURNS BIT
 AS
 BEGIN
-	 DECLARE @PlantationFlowers int;
-	 DECLARE @BookedFlowers int;
+	 DECLARE @PlantationFlowers int
+	 DECLARE @BookedFlowers int
 
 	 SELECT @PlantationFlowers = SUM([PlantationFlowers].[Amount])
 	 FROM [PlantationFlowers] 
